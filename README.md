@@ -1,6 +1,6 @@
 # Image_Acqusition-_using_Web_Camera
-## Name: Darshan V
-## Register no:212224230050
+## Name: A JEEVITH
+## Register no:212223240059
 
 ## Aim:
  
@@ -33,13 +33,12 @@ End Program with 'q'. Allow the program to be terminated by pressing the 'q' key
 
 
 ## Program:
-### Developed By: Darshan V
-### Register No: 212224230050
-
+### Developed By: RITHIK V
+### Register No: 212223230171
 
 ## i) Write the frame as JPG file
 
-```
+```PYTHON
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -47,9 +46,9 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("/content/image.jpg", frame)
+    cv2.imwrite("captured_frame.jpg", frame)
 cap.release()
-captured_image = cv2.imread('harish.jpg')
+captured_image = cv2.imread('captured_frame.jpg')
 plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
@@ -60,7 +59,7 @@ plt.show()
 
 ## ii) Display the video
 
-```
+```PYTHON
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -80,7 +79,7 @@ cap.release()
 
 ## iii) Display the video by resizing the window
 
-```
+```PYTHON
 
 cap = cv2.VideoCapture(0)
 
@@ -104,7 +103,7 @@ cap.release()
 
 ## iv) Rotate and display the video
 
-```
+```PYTHON
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -125,24 +124,35 @@ cap.release()
 ## Output
 
 ### i) Write the frame as JPG image
-![image](https://github.com/user-attachments/assets/978e4e4a-7c96-46ef-ad72-d65ed0d1868a)
+</br>
 
+<img width="831" height="526" alt="image" src="https://github.com/user-attachments/assets/618752be-078b-4879-9398-6038a977f909" />
 
+</br>
 
 
 ### ii) Display the video
+</br>
+<img width="857" height="479" alt="image" src="https://github.com/user-attachments/assets/386a2a4d-33d8-48f0-8954-50e5c37995ff" />
 
-![image](https://github.com/user-attachments/assets/978e4e4a-7c96-46ef-ad72-d65ed0d1868a)
+</br>
 
 
 ### iii) Display the video by resizing the window
-<img width="864" height="1184" alt="123" src="https://github.com/user-attachments/assets/e7ac6373-c429-4ace-a1b9-772e86d3ab67" />
+</br>
+<img width="486" height="482" alt="image" src="https://github.com/user-attachments/assets/04a01eeb-8dde-4466-bdc4-4ba480e6d4ea" />
 
+</br>
 
 
 
 ### iv) Rotate and display the video
-![image](https://github.com/user-attachments/assets/da82f9d2-1db0-4489-b341-b1d93722b5f5)
+</br>
+<img width="477" height="472" alt="image" src="https://github.com/user-attachments/assets/11b454a4-f791-4ae3-bfff-7df3298e3d50" />
+
+</br>
+
+
 
 
 
