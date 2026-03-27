@@ -135,7 +135,7 @@ cap.release()
 </br>
 
 
-<img width="864" height="419" alt="image" src="https://github.com/user-attachments/assets/83b29f98-7f89-422f-95c7-7a57fd70ae06" />
+<img width="507" height="378" alt="image" src="https://github.com/user-attachments/assets/770ba020-db07-4b53-a71a-a30a16d90a3f" />
 
 
 </br>
@@ -154,7 +154,8 @@ cap.release()
 ### iv) Rotate and display the video
 </br>
 
-![Uploading image.png…]()
+<img width="283" height="374" alt="image" src="https://github.com/user-attachments/assets/1c547449-bca7-48cd-8fcc-52e966fff9b5" />
+
 
 
 
